@@ -250,3 +250,56 @@ main {
   margin-top: 50px;
   text-align: center;
 }
+
+/* footer  */
+
+footer {
+  background-color: #fff8f3;
+  margin-top: 113px;
+  padding: 130px 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer-column > .section-title {
+  text-align: left;
+  margin: 0 0 30px;
+}
+
+.footer-column > .section-desc {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+footer .social-links a {
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+/* form  */
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  display: block;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 18px 30px;
+  border: 0;
+  width: 461px;
+  color: #757575;
+}
+
+.contact textarea::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: #757575;
+}
