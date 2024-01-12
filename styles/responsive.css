@@ -1,0 +1,64 @@
+/* mobile  */
+@media screen and (max-width: 576px) {
+  .about-info-container,
+  .skills-container,
+  .resume-container,
+  footer, .banner, nav {
+    flex-direction: column;
+  }
+  .about,
+  #what-i-do-desc,
+  .resume,
+  footer, .banner {
+    padding: 20px;
+  }
+  .footer-column, .banner .profile-pic, .banner-content, .banner-content p {
+    width: 100%;
+  }
+  .footer-column,
+  .footer-column > .section-title,
+  .footer-column > .section-desc {
+    text-align: center;
+  }
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 80%;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .resume-container, .about-info-container {
+    gap: 0;
+  }
+  .resume-container {
+    margin-top: 40px;
+  }
+  .skills-container {
+    margin-bottom: 70px;
+  }
+  .what-i-do {
+    margin: 0 24px;
+  }
+  nav > ul {
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  nav > ul li {
+    margin: 0;
+  }
+  .header {
+    background: none;
+  }
+  .banner .btn1 {
+    margin-bottom: 20px;
+  }
+  .banner .btn2 {
+    margin-left: 0;
+  }
+}
